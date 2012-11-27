@@ -1,3 +1,6 @@
+require 'execjs'
+require 'v8'
+require 'slim'
 ###
 # Compass
 ###
