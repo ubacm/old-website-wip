@@ -31,6 +31,8 @@ require 'slim'
 #   page "/admin/*"
 # end
 
+page "/posts/*", :layout => "blog_post"
+
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"

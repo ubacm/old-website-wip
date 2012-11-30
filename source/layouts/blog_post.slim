@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title UB ACM - Post title goes here
+  body
+    h2 UB ACM Blog
+    br
+    == partial "partials/main_links"
+    br
+      .content
+        == yield
+    br
+    br
+    == partial "partials/footer"
