@@ -1,6 +1,3 @@
-# require 'execjs'
-# require 'slim'
-
 ###
 # Compass
 ###
@@ -32,6 +29,8 @@
 # end
 
 page "/posts/*", :layout => "blog_post"
+
+activate :directory_indexes
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
