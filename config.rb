@@ -1,11 +1,6 @@
-require 'execjs'
-require 'v8'
-require 'slim'
-# require "actionpack/lib/action_view/template.rb"
-# require "/var/lib/gems/1.9.1/gems/temple-0.5.5/lib/temple/templates/rails.rb"
-# require 'rails'
+# require 'execjs'
+# require 'slim'
 
-# require 'asset_tag_helper'
 ###
 # Compass
 ###
