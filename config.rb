@@ -28,7 +28,6 @@
 #   page "/admin/*"
 # end
 
-page "/posts/*", :layout => "blog_post"
 
 activate :directory_indexes
 

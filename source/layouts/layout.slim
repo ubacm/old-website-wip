@@ -1,16 +1,15 @@
 doctype html
 html
   head
-    title UB ACM
-    == stylesheet_link_tag "all.css"
-    == favicon_tag "favicon.ico"
+    == partial "/partials/_meta"
   body
     h1 Hello
     h2 Welcome to the UB ACM website
     p 
       | This page is currently under construction. Check back soon for more information.
-    == partial "partials/main_links"
+    == partial "partials/_navigation"
+    hr
     .content
       == yield
 
-    == partial "partials/footer"
+    == partial "partials/_footer"
