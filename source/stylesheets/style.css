@@ -1,3 +1,8 @@
+@charset "utf-8";
+@import "normalize.css";
+
+/* Setting up text sizes*/
+
 html {
 	font-size: 62.5%; 
 } 
@@ -15,4 +20,50 @@ p, li, article, header {
 }
 footer {
 	font-size: 1.8rem;
+}
+
+/*setting up page colors*/
+
+html{
+	background-color: #2162A3;
+;
+}
+#header{
+	background-color: #ffffff;
+}
+#construction_banner{
+	background-color: #B20000;
+}
+
+/*lay out header*/
+
+#header{
+	margin: 2em auto;
+	width: 80%;
+	max-width: 1200px;
+}
+#logo{
+}
+#navbar{
+	display: inline-block;
+	outline: 2px solid black;
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+}
+#navbar li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 1em 0.3em;
+	outline: 1px solid orange;
+}
+
+/* lay out temp banner*/
+#construction_banner{
+	outline: 2px solid red;
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	width: 90%;
 }
