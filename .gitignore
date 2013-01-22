@@ -13,4 +13,5 @@
 # Ignore Sass' cache
 /.sass-cache
 
-
+# Ignore the 'unused' folder
+/source/unused
