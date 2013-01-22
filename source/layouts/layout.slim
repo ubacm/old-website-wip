@@ -1,18 +1,18 @@
 doctype html
-html
+html lang='en'
   head
     == partial "/partials/_meta"
   body
-    #header
-      h1 UB ACM
-      img#logo src="http://placekitten.com/200/200"
-      == partial "partials/_navigation"
-    #construction_banner 
-      p
-       | This page is currently under construction. Check back soon for more information.
-    
-    hr
-    .content
-      == yield
+    .row-fluid#main-container
+      header.span10.offset1
+        h1 UB ACM
+        img#logo src="http://placekitten.com/200/200"
+        == partial "partials/_navigation"
+      .alert.span8.offset2
+        | This page is currently under construction. Check back soon for more information.
+      
+      
+      article.span12
+        == yield
 
     == partial "partials/_footer"

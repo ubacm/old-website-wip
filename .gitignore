@@ -15,3 +15,6 @@
 
 # Ignore the 'unused' folder
 /source/unused
+
+#Ignore 'Questions' document
+/Questions.txt
