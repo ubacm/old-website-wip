@@ -4,14 +4,13 @@ html lang='en'
     == partial "/partials/_meta"
   body
     .container
+      header.row-fluid
+            .span3
+              img#logo src=placekitten(size = "200/200") alt="UB ACM club logo"
+            .span9
+              == partial "partials/_navigation"
       .row-fluid
-        header.span10.offset1.row-fluid
-          .span3
-            img#logo src=placekitten(size = "200/200") alt="UB ACM club logo"
-          .span9
-            == partial "partials/_navigation"
-      .row-fluid
-        .alert.span8.offset2
+        .alert.span8.offset2#construction
           | This page is currently under construction. Check back soon for more information.
         
       .row-fluid  

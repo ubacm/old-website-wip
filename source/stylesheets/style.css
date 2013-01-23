@@ -1,32 +1,52 @@
 @charset "utf-8";
 @import "bootstrap.css";
 @import "bootstrap-responsive.css";
-/*@import "bootstrap-responsive.css";*/
 
 /* Setting up text sizes */
 
 html {
-	font-size: 62.5%; 
+  font-size: 62.5%; 
 }
 p, li, article, header {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 footer {
-	font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 /*setting up page colors*/
 
 body{
-	background-color: #2162A3;
+  background-color: #2162A3;
 }
 
-/*lay out header*/
-
-header{
-	outline: 5px solid green;
+#construction{
+  margin-top: 20px;
 }
 
 .container{
-	background-color: #fff;
+  background-color: #fff;
+  padding: 1em 2em;
+
+  border: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+          box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+
+header .span9{
+  line-height: 200px; /*same as adjacent logo*/
+}
+.navbar{
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+}
+
+#logo{
+  display: block;
+  margin: 0px auto;
 }
