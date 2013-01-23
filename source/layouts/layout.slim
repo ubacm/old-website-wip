@@ -5,11 +5,11 @@ html lang='en'
   body
     .container
       .row-fluid
-        header.span10.offset1
-          h1 UB ACM
-          img#logo src=placekitten(size = "200/200")
-
-          == partial "partials/_navigation"
+        header.span10.offset1.row-fluid
+          .span3
+            img#logo src=placekitten(size = "200/200") alt="UB ACM club logo"
+          .span9
+            == partial "partials/_navigation"
       .row-fluid
         .alert.span8.offset2
           | This page is currently under construction. Check back soon for more information.
