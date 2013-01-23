@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "bootstrap.css";
+@import "bootstrap-responsive.css";
 /*@import "bootstrap-responsive.css";*/
 
 /* Setting up text sizes */
@@ -16,13 +17,16 @@ footer {
 
 /*setting up page colors*/
 
-html{
+body{
 	background-color: #2162A3;
 }
 
 /*lay out header*/
 
 header{
-	background-color: #ffffff;
 	outline: 5px solid green;
+}
+
+.container{
+	background-color: #fff;
 }
